@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class text{
+public static void main(String[]args){
+System.out.println("enter name");
+Scanner sc = new Scanner(System.in);
+String a = sc.next();
+System.out.println("enter roll no.");
+int b = sc.nextInt();
+System.out.println("enter field of interest");
+String c = sc.next();
+System.out.println("Hey,my name is "+a+" and my roll number is "+b+". My field of interest is "+c+".");
+}
+}
