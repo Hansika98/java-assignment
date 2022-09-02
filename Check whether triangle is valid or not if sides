@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class text{
+public static void main(String[]args){
+int i;
+Scanner sc = new Scanner(System.in);
+System.out.println("enter number ");
+int a = sc.nextInt();
+System.out.println("enter number ");
+int b = sc.nextInt();
+System.out.println("enter number ");
+int c = sc.nextInt();
+if((a+b)>c&&(b+c)>a&&(c+a)>b){
+System.out.println("triangle is valid");
+}
+else{
+System.out.println("triangle is not valid");
+}
+}
+}
