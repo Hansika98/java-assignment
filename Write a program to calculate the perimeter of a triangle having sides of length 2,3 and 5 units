@@ -1,0 +1,9 @@
+class text{
+public static void main(String[]args){
+byte a = 2;
+byte b = 3;
+byte c = 5;
+int d = a+b+c;
+System.out.println("the perimeter of triangle is = "+d);
+}
+}
