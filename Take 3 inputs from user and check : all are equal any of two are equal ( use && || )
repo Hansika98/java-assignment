@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class text{
+public static void main(String[]args){
+Scanner sc = new Scanner(System.in);
+System.out.println("enter number");
+int a = sc.nextInt();
+System.out.println("enter number");
+int b = sc.nextInt();
+System.out.println("enter number");
+int c = sc.nextInt();
+if(a==b&&b==c&&c==a){
+System.out.println("all are equal");
+}
+else if(a==b||b==c||c==a){
+System.out.println("two are equal");
+}
+else{
+System.out.println("all are unequal");
+}
+}
+}
