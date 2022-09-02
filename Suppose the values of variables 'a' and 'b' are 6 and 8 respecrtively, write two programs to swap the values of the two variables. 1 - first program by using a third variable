@@ -1,0 +1,11 @@
+class text{
+public static void main(String[]args){
+byte a = 6;
+byte b = 8;
+System.out.println("before swapping a = "+a+" and b ="+b+".");
+byte c = a;
+byte d = b;
+byte e =c;
+System.out.println("after swapping a = "+d+" and b ="+e+".");
+}
+}
